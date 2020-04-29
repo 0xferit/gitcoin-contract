@@ -1,0 +1,22 @@
+{
+  "name": "gitcoin-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ferittuncer/gitcoin-contract.git",
+  "author": "Kleros",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.34",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.49",
+    "truffle": "^5.1.23"
+  },
+  "dependencies": {
+    "@kleros/erc-792": "^4.0.0",
+    "@openzeppelin/contracts": "^3.0.1"
+  },
+  "scripts": {
+    "compile": "yarn run truffle compile"
+  }
+}
